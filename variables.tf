@@ -38,7 +38,7 @@ variable "admin_user" {
 
 variable "admin_password" {
    description = "Default password for admin account"
-  default = "CyN20137@ave"
+  default = ""
 }
 
 variable "sql-login" {
@@ -48,7 +48,7 @@ variable "sql-login" {
 
 variable "sql-password" {
   type = string
-  default = "CyN20137@ave"
+  default = ""
 }
 
 variable "sql-threat-email" {
